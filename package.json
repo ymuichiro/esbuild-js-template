@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-js-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ymuichiro/esbuild-js-template.git",
+  "author": "yuichiro <47295014+ymuichiro@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "NODE_ENV=development node ./esbuild/watch.js",
+    "tsc": "npx tsc -watch",
+    "build": "NODE_ENV=production node ./esbuild/build.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.8.42",
+    "typescript": "^4.1.3"
+  }
+}
